@@ -1,0 +1,103 @@
+html{
+    display: block;
+    width:100%;
+    height:500vh;
+    text-align: left;
+}
+header{
+    display: block;
+}
+.mini-header h1{
+    font-size: 36px;
+    
+}
+a{
+    padding: 0 3px;
+}
+.nav-bar{
+    display: block;
+    width: 100%;
+    position: unset;
+}
+.nav-bar a{
+    font-size: 14px;   
+    
+}
+.nav-bar ul{
+    padding: 0;
+}
+.mini-nav{
+    margin: 0px;
+    height: 60px;
+}
+.mini-header{
+    width: 100%;
+    height: 100%;
+}
+.mini-header .images img{
+    width: 200px;
+    padding: 0;
+}
+#page-2{
+    width:100%;
+    height: 470px;
+}
+.text-2{
+    padding:0 10px
+}
+.text-2 h2, .text-3 h2{
+    font-size: 40px;
+}
+.text-2 h3, .text-3 h3{
+    font-size: 26px;
+}
+.text-2 a, text-3 a{
+    font-size: 20px;
+}
+.container-3{
+    width: 100%;
+    height: 470px;
+}
+.grid{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.item{
+    padding: 1rem;
+}
+.item h3{
+    font-size: 23px;
+}
+.item .icon{
+
+font-size: 20px;
+}
+.item p{
+   font-size: 20px;
+}
+.item-2{
+    height:400px
+}
+.item-6{
+    width: 100%;
+}
+.item-6 .icon5{
+    left: 180px;
+}
+.item-6 .icon55{
+    margin: 0px;
+    left: 100px;
+}
+
+#page-4{
+    height: 326vh;
+    width: 100%;
+}
+.footer-container{
+    display: block;
+}
+
+
+
