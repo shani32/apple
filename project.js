@@ -21,7 +21,7 @@ function isIsogram(str) {
     let i, j;
     str = str.toLowerCase();
     for (i = 0; i < str.length; ++i) {
-        for (j = i + 1; j < str.length; ++j) {
+        for (j =i+1; j < str.length; ++j) {
             if (str[i] === str[j]) {
                 return false;
             }
@@ -29,9 +29,7 @@ function isIsogram(str) {
     }
     return true;
 }
-console.log(isIsogram('abced'))
-
-
+console.log(isIsogram(''))
 //6.1
 function accum(word) {
     let result = '';
@@ -55,7 +53,7 @@ console.log(accum('abcde'))
 //6.3
 const a = "";
 const b = "";
-const longest = (a = '', b = '') => {
+const longest = (a , b ) => {
     const merged = a.concat(b).toLowerCase();
     const split = merged.split('');
     const sorted = split.sort();
